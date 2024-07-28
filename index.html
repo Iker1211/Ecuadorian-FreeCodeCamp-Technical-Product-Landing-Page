@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<!--CAMBIAR IMG POR IA LOGO GENERATOR-->
+<body>
+ <header id="header">
+    <nav id="nav-bar">
+        <div class="log-container">
+            <img src="https://tse4.mm.bing.net/th?id=OIG2.NsACKTrvxaVBQM8dKCP5&pid=ImgGn" alt="header-img" id="header-img">
+            <span class="the-product">Tropical Renovables</span>
+        </div>
+            <ul class="nav-links">
+             <li><a href="#features" class="nav-link">Features</a></li>
+             <li><a href="#products" class="nav-link">Products</a></li>
+             <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+            </ul>
+    </nav> 
+ </header>
+
+ <section id="email-section">
+    <h2>Nos ocupamos del futuro</h2>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <input 
+    id="email" 
+    type="email" 
+    required placeholder="Enter your email address" 
+    name="email"/>
+    <input type="submit" id="submit" value="GET STARTED">
+    </form>
+ </section>
+
+ <section id="features">
+    <div class="feature">
+        <i class="ri-money-dollar-box-fill ri-4x icon"></i>
+        <div>
+            <h2>Ahorra Dinero</h2>
+            <p>
+                Con paneles solares y aerogeneradores, puedes reducir tus facturas de electricidad. ¡Imagina todo el dinero que podrías ahorrar a largo plazo!  
+            </p>
+        </div>
+    </div>
+    <div class="feature">
+        <i class="ri-earth-line ri-4x icon"></i>
+        <div>
+            <h2>Cuida el Planeta</h2>
+            <p>
+                Al usar energía renovable, ayudas a reducir la contaminación y el cambio climático. ¡Es una forma genial de poner tu granito de arena por un mundo más limpio!   
+            </p>
+    </div>
+    <div class="feature">
+        <i class="ri-arrow-up-double-line ri-4x icon"></i>
+        <div>
+            <h2>Sé Independiente</h2>
+            <p>
+                Genera tu propia energía y no dependas de las compañías eléctricas. ¡Tendrás más control y estabilidad en tu suministro de energía!    
+            </p>
+        </div>
+    </div>
+ </section>
+<section id="audio">
+    <iframe 
+    id="video"
+    height="400" 
+    src="https://www.youtube.com/embed/RnvCbquYeIM?si=Wt4VHcGCyUsaSO4e" title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+    ></iframe>
+</section>
+
+<section id="for_sale">
+    <h2>For Sale</h2>
+    <div class="product-cards">
+        <div class="card">
+            <div class="product-image product1"></div>
+            <div class="inner-card">
+                <div class="empresa">Bornay Aerogeneradores</div>
+                <h1 class="header">Wind +</h1>
+
+                <p class="content">
+                Los aerogeneradores Wind + representan un salto en la tecnología minieólica. Bajo un diseño familiar, se oculta una evolución que los hace más fáciles de instalar y más eficientes. Tras 8 años de desarrollo con la UPV, logran un 20% más de producción, arrancan a menor velocidad y alcanzan eficiencias del 96%, compatibles con baterías de litio. Además, permiten monitorización remota y nuevas compatibilidades.
+                </p>
+
+                <button class="add">
+                    <p style="margin-left: 175px">Add to Cart</p>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="product-image product2"></div>
+            <div class="inner-card">
+                <div class="empresa">Eurener Energía Solar</div>
+                <h1 class="header">Energía Solar</h1>
+
+                <p class="content">
+                    Los módulos NEXA 420-700W, con tecnología TOPCON, añaden una capa de óxido para reducir pérdidas y aumentar la eficiencia. Las células tipo N ofrecen mayor rendimiento y reducen los efectos LID y LeTID. Con un mejor coeficiente de temperatura, estos módulos son ideales para climas cálidos. Su versatilidad permite su uso en instalaciones residenciales, industriales y de gran tamaño. Disponibles en versión bifacial, ofrecen rendimiento extra gracias a la producción en la cara posterior. Fabricados con conectores MC4-EVO 2, garantizan seguridad y fiabilidad adicionales.
+                </p>
+
+                <button class="add">
+                    <p style="margin-left: 175px">Add to Cart</p>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="product-image product3"></div>
+            <div class="inner-card">
+                <div class="empresa">Moko Energy</div>
+                <h1 class="header">Inversor Solar Residencial</h1>
+
+                <p class="content">
+                    Los inversores solares convierten la energía CC de los paneles solares en energía CA para uso doméstico. Utilizan la función MPPT para optimizar la energía obtenida de los paneles. La energía CA generada puede conectarse a la red eléctrica o almacenarse en baterías para su uso posterior.
+                </p>
+
+                <button class="add">
+                    <p style="margin-left: 175px">Add to Cart</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
